@@ -110,4 +110,4 @@ function main(){
     fi
 }
 
-main $1 $2
+main $1 $2 $3 $4
