@@ -6,7 +6,7 @@ You only need run this:
 
 - git clone https://github.com/Alopezfu/Nginx-Full.git
 
-- cd nginx-full
+- cd Nginx-Full
 
 - chmod +x nginx-full.sh
 
