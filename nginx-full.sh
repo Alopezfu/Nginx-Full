@@ -86,8 +86,8 @@ function mysql_user(){
     mysql -e "CREATE USER '$mysql_user'@'localhost' IDENTIFIED BY '$mysql_password'"
     mysql -e "GRANT ALL PRIVILEGES ON *.* TO '$mysql_user'@'localhost';"
     echo "Mysql login:"
-    echo "\t User: $mysql_user"
-    echo "\t Password: $mysql_password"
+    echo -e "\t User: $mysql_user"
+    echo -e "\t Password: $mysql_password"
 
 }
 
